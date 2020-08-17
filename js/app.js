@@ -144,11 +144,11 @@ var lima = new Shop('Lima',2,165,4.6);
 function renderHeader(){
   var trElHeader = document.createElement('tr');
   var thEl = document.createElement('th');
-  thEl.textContent = '';
+  thEl.textContent = ' ';
   trElHeader.appendChild(thEl);
   for( var i = 0 ; i < hours.length; i++){
     var thEl1 = document.createElement('th');
-    thEl.textContent = hours[i];
+    thEl1.textContent = hours[i];
     trElHeader.appendChild(thEl1);
   }
   var thEl2 = document.createElement('th');
@@ -195,7 +195,7 @@ section.appendChild(table);
 
 
 // render tabel contents
-
+renderHeader();
 for(var i = 0; i < cities.length; i++){
   cities[i].calCustPrHr();
 
