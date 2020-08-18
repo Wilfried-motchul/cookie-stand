@@ -29,7 +29,7 @@ var tokyo = new Shop('Tokyo',3,24,2.1);
 var dubai = new Shop('Dubai',11,38,3.7);
 var paris= new Shop('Paris',20,38,2.3);
 var lima = new Shop('Lima',2,165,4.6);
-
+var jamaica = new Shop('jamaica',2,100,3.5);
 
 
 
@@ -187,7 +187,7 @@ function renderFooter (){
 
 
 
-var cities = [seattle, tokyo, dubai, paris, lima];
+var cities = [seattle, tokyo, dubai, paris, lima, jamaica];
 var section = document.getElementById('sales-list');
 var table = document.createElement('table');
 section.appendChild(table);
