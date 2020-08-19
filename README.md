@@ -1,2 +1,3 @@
 # cookie-stand
-## created by Will
+## created by Will.
+## created by Wilfried
