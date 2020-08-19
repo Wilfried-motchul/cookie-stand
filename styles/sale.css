@@ -26,11 +26,14 @@ nav img{
   /* margin-top: 25px; */
   float: left;
 }
+header ul{
+  float: left;
+}
 
 header li {
   display: inline;
   line-height: 100px;
-  margin-left: 48px;
+  margin-left: 58px;
   color: white;
   font-size: 15px;
 }
